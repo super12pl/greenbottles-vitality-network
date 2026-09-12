@@ -26,7 +26,7 @@ export function registerTransferVitalityHooks() {
     const item = message.item;
 
     // item.slug is the system identifier — more reliable than checking the name string.
-    if (item?.slug === 'transfer-vitality') {
+    if (item?.system.slug === 'transfer-vitality') {
       const actor = message.actor;
 
       // Only show the spend prompt to the user who has this character assigned.
