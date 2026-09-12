@@ -20,7 +20,6 @@
       "label": "Greenbottle's Vitality Network - Macros",
       "path": "packs/greenbottles-vitality-network-macros",
       "type": "Macro",
-      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -39,15 +38,6 @@
     }
   ],
   "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "6.0.0"
-        }
-      }
-    ],
     "requires": [
       {
         "id": "greenbottles-toolbelt",
